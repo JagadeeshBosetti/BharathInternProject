@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#sec1::before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: url(./netflix.jpg)no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/* set black overlay on the image */
+#sec1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.808);
+}
+img{
+    margin-left:75px;
+    margin-top:22px;
+    width: 110px;
+    height: 55px;
+}
+form{
+    text-align: center;
+    padding: 25px;
+    margin-top: 8rem;
+}
+.btn{
+    color: #FFFFFF;
+    background: #e50914;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 5px;
+    margin: 28px;
+}
+/* Now set Hover on button */
+.btn:hover{
+    /* background-color: white; */
+    color: red;
+}
+h1{
+    font-size: 3rem;
+    padding: 10px;
+}
+p{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+#txt-box{
+    border: none;
+    padding: 24px 16px 8px;
+    margin: 20px;
+    width: 400px;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    /* opacity: 0.1; */
+    border-radius:3px;
+    
+}
+#btn{
+    border: none;
+    border-radius: 5px;
+    padding: 24px 16px 8px;
+    width: 210px;
+    background:#e50914 ;
+    font-size: 17px;
+    margin-left: -26px;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+/* Now set hover on above coding button */
+#btn:hover{
+    background-color: black;
+    color: red;
+}
+.fas{
+    font-size: 15px;
+    margin-left: 5px;
+}
+select{
+    /* color: #FFFFFF; */
+    float: right;
+    font-size: 14px;
+    /* font-weight: bold; */
+    /* border: none; */
+    padding: 4px 16px;
+    border-radius:0+;
+    margin: 28px;
+}
+#so{
+    background-color: #e50914;
+}
